@@ -4,6 +4,9 @@
   "description": "These are screenshots of my personal review",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "node server.js",
     "start": "webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,16 +16,23 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.1",
+    "json5": "^2.2.3",
     "postcss-loader": "^7.3.2",
     "sass": "^1.62.1",
     "sass-loader": "^13.3.1",
     "style-loader": "^3.3.3",
+    "toml": "^3.0.0",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0"
+    "webpack-dev-server": "^4.15.0",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21"
   }
 }

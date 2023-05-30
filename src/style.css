@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Qstkaishu';
+    /* ttf 格式  */
+    src: url('./fonts/方正硬笔楷书简体.TTF');
+    /*  woff */
+    /* src: url('./my-font.woff2') format('woff2'),
+    url('./my-font.woff') format('woff'); */
+    font-weight: 600;
+    font-style: normal;
+}
+.hello{
+    font-family: 'Qstkaishu';
+    color: rebeccapurple;
+    /* background: url('../imgs/home/github.png'); */
+}
+
+img{
+    width: 50%;
+}
